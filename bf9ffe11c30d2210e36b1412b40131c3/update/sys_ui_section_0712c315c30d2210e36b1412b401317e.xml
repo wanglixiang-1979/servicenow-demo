@@ -4,27 +4,27 @@
             <element>brand</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-21 01:13:17</sys_created_on>
-            <sys_id>13120715c30d2210e36b1412b40131a0</sys_id>
+            <sys_created_on>2025-04-21 01:36:11</sys_created_on>
+            <sys_id>32578b99c30d2210e36b1412b4013193</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration Requirements" display_value="Configuration Requirements" name="x_1642211_it_ass_0_computer_application_form" sys_domain="global" view="Default view">0712c315c30d2210e36b1412b401317e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-21 01:13:17</sys_updated_on>
+            <sys_updated_on>2025-04-21 01:36:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>device_type</element>
+            <element>cpu</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-21 01:13:17</sys_created_on>
-            <sys_id>97120715c30d2210e36b1412b40131a0</sys_id>
+            <sys_created_on>2025-04-21 01:36:11</sys_created_on>
+            <sys_id>fa578b99c30d2210e36b1412b4013193</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration Requirements" display_value="Configuration Requirements" name="x_1642211_it_ass_0_computer_application_form" sys_domain="global" view="Default view">0712c315c30d2210e36b1412b401317e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-21 01:13:17</sys_updated_on>
+            <sys_updated_on>2025-04-21 01:36:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>storage</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-21 01:13:17</sys_created_on>
-            <sys_id>1f120715c30d2210e36b1412b40131a0</sys_id>
+            <sys_created_on>2025-04-21 01:36:11</sys_created_on>
+            <sys_id>72578b99c30d2210e36b1412b4013194</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration Requirements" display_value="Configuration Requirements" name="x_1642211_it_ass_0_computer_application_form" sys_domain="global" view="Default view">0712c315c30d2210e36b1412b401317e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-21 01:13:17</sys_updated_on>
+            <sys_updated_on>2025-04-21 01:36:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,41 +46,41 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-21 01:13:17</sys_created_on>
-            <sys_id>93120715c30d2210e36b1412b40131a1</sys_id>
+            <sys_created_on>2025-04-21 01:36:11</sys_created_on>
+            <sys_id>f6578b99c30d2210e36b1412b4013194</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration Requirements" display_value="Configuration Requirements" name="x_1642211_it_ass_0_computer_application_form" sys_domain="global" view="Default view">0712c315c30d2210e36b1412b401317e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-21 01:13:17</sys_updated_on>
+            <sys_updated_on>2025-04-21 01:36:11</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ram</element>
+            <element>device_type</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-21 01:13:17</sys_created_on>
-            <sys_id>1b120715c30d2210e36b1412b40131a1</sys_id>
+            <sys_created_on>2025-04-21 01:36:11</sys_created_on>
+            <sys_id>7e578b99c30d2210e36b1412b4013194</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration Requirements" display_value="Configuration Requirements" name="x_1642211_it_ass_0_computer_application_form" sys_domain="global" view="Default view">0712c315c30d2210e36b1412b401317e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-21 01:13:17</sys_updated_on>
+            <sys_updated_on>2025-04-21 01:36:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cpu</element>
+            <element>ram</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-21 01:13:17</sys_created_on>
-            <sys_id>9f120715c30d2210e36b1412b40131a1</sys_id>
+            <sys_created_on>2025-04-21 01:36:11</sys_created_on>
+            <sys_id>f2578b99c30d2210e36b1412b4013195</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Configuration Requirements" display_value="Configuration Requirements" name="x_1642211_it_ass_0_computer_application_form" sys_domain="global" view="Default view">0712c315c30d2210e36b1412b401317e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-21 01:13:17</sys_updated_on>
+            <sys_updated_on>2025-04-21 01:36:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
