@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1642211_it_ass_0.GetEmailAddressForITAM</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Script Include to return an email address.  The calling client-side script passes a sys_id for a User table record.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>GetEmailAddressForITAM</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var GetEmailAddressForITAM = Class.create();
+GetEmailAddressForITAM.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getEmail: function() {
+        var userRecord = new GlideRecord("sys_user");
+        userRecord.get(this.getParameter('sysparm_userID'));
+        return userRecord.email + '';
+    },
+    type: 'GetEmailAddressForITAM'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 01:22:25</sys_created_on>
+        <sys_id>51c3c7d1c30d2210e36b1412b401314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmailAddressForITAM</sys_name>
+        <sys_package display_value="IT Asset Management" source="x_1642211_it_ass_0">bf9ffe11c30d2210e36b1412b40131c3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope>
+        <sys_update_name>sys_script_include_51c3c7d1c30d2210e36b1412b401314c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-21 01:22:25</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>51c3c7d1c30d2210e36b1412b401314c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 01:22:24</sys_created_on>
+        <sys_id>b4348b95c30d2210e36b1412b4013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-21 01:22:24</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
