@@ -21,6 +21,15 @@
                 <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
             </choice>
         </element>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Close Complete" sequence="3" value="close_complete"/>
+                <element inactive_on_update="false" label="Withdrawn" sequence="4" value="withdrawn"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="1" value="awaiting_approval"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="employee_name"/>
         </index>
