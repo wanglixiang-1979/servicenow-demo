@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1ffff651c30d2210e36b1412b40131fe" label="Computer Application Form" max_length="40" name="x_1642211_it_ass_0_computer_application_form" type="collection">
+        <element label="RAM" max_length="40" name="ram" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element display="true" label="Employee Name" mandatory="true" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element label="Purpose of Request" mandatory="true" max_length="150" name="purpose_of_request" type="string"/>
+        <element label="When needed" max_length="40" name="when_needed" type="glide_date"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="Storage" max_length="40" name="storage" type="string"/>
+        <element label="CPU" max_length="40" name="cpu" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Brand" max_length="40" name="brand" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Thinkpad" sequence="0" value="thinkpad"/>
+                <element inactive_on_update="false" label="Mac" sequence="1" value="mac"/>
+            </choice>
+        </element>
+        <element choice="1" label="Device Type" max_length="40" name="device_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Desktop" sequence="0" value="desktop"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+    </element>
+</database>
