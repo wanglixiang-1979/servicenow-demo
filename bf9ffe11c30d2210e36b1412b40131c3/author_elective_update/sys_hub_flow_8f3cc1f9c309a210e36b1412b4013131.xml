@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>ITAM Approval Email Notification</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>itam_approval_email_notification</internal_name>
+        <label_cache>[{"name":"518ddbc2-bb2c-4515-9bbe-1d499500af21.Records","label":"1 - Look Up Records➛Computer Application Form Records","reference":"x_1642211_it_ass_0_computer_application_form","reference_display":"Computer Application Form","type":"records","base_type":"records","usedInstances":{"8512792d-1f54-414a-a4de-94ebf5326a18":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>ITAM Approval Email Notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:55:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f3cc1f9c309a210e36b1412b4013131</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ITAM Approval Email Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Asset Management" source="x_1642211_it_ass_0">bf9ffe11c30d2210e36b1412b40131c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope>
+        <sys_update_name>sys_hub_flow_8f3cc1f9c309a210e36b1412b4013131</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 06:10:59</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_variable_value action="DELETE" query="document_key=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=8f3cc1f9c309a210e36b1412b4013131^sys_idNOT IN4f3cc1f9c309a210e36b1412b4013132"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>8f3cc1f9c309a210e36b1412b4013131</id>
+        <name>ITAM Approval Email Notification</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:55:13</sys_created_on>
+        <sys_id>4f3cc1f9c309a210e36b1412b4013132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:55:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=4f3cc1f9c309a210e36b1412b4013132"/>
+    <sys_hub_flow_input action="DELETE" query="model=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_hub_flow_output action="DELETE" query="model=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=8f3cc1f9c309a210e36b1412b4013131^sys_idNOT INccfe8df1c349a210e36b1412b401314a"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="ITAM Approval Email Notification">8f3cc1f9c309a210e36b1412b4013131</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 06:07:02</sys_created_on>
+        <sys_id>ccfe8df1c349a210e36b1412b401314a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 06:10:59</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21STUvEMBD9K5LzWtJdP3sTZMGDCipeRMo0me4GpklM09Uq/ncnbVxULLnMm5k37z369CEIGiRRiQfToVgIYyMGC/QwemR0Q0ZjHedeB1ZDdGEUVQwDLoQLGoOoSikXYgc04P3YX2le42ELXSLIq1OXy/L8VB7Kkt+BPK2k5MddD4GnY+L6EGprSAe0onp6Zj2JbgX6CLWSarXkT8rl2VHZnKyacqlXgHjMFH9s/L4e/zHzUzu+RbQa+VQL1OM/TgOCvrU07ie2HNRstIO33rxjpgrYIotXODf3Za1N7wnGGVZbZxTe+micnZEIDeUd5Wjo7M3sgGuNLQwUH3OEjAw986FPmpOKLKm937rXu++Da2Mng7lJTgHtK4gxmGaI2KfEkbBjoroD743d1D64nZmWWUtXTLEVLblXPtqbjS1AJeEFRwTFmvHLCX6EYJKLa6bh5c/Jff0ypLuzj6y4nk3zQA5lbZDyb9OrYHy84AM7zHI/n78A19hGYKcCAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=8f3cc1f9c309a210e36b1412b4013131^sys_idNOT IN46dfcd35c349a210e36b1412b4013133"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>find awaiting approval records</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="ITAM Approval Email Notification">8f3cc1f9c309a210e36b1412b4013131</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 06:10:59</sys_created_on>
+        <sys_id>46dfcd35c349a210e36b1412b4013133</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 06:10:59</sys_updated_on>
+        <ui_id>518ddbc2-bb2c-4515-9bbe-1d499500af21</ui_id>
+        <values>H4sIAAAAAAAA/9VX207jMBD9lSjPUZW0pbC8IVClfQAkQLywyHIcp7XWsbO20wuIf99x7KSlLVBKxeUx47mcOT4zde8eQ5aFx+FR3o9jnBwcHcZxrxfHg0GP4CRNewOSxmk/DaNQ4IKCp8Epp/A5wbyy3zOUDPrdbpIgZhDWGsWIyKKsDFUIlyVnBBsmBcqlKiAsY7rkeH7ro0+9a3CycA2GzpWMGc8UFeHx3X0UllgBAHANjx9Xjsy8pIjjlHLIeGPxBRcWbLR1b8+C13u1BZpPJFxqqTKLJY5COjNUZBRK5ZhrGoUFFhk2Us1bi6I4uxR8YRgzYSBjaJ1nmj1A+qPY+uUU2iLUnbWfyNPmzGQsGaGXpSXLWRxQdyh5VYgL14AlnOa44qYhHCyVhny0tJgtCI8ovx7L6VVTcMhE3Z4/5JJg3n5hYxRL4dq0vQvKaQGJUAG3zcQIlUpOWB0MWIrOiMNHJ+dyCkU1G4kOJhZ4ByjCnSHYz2rzLVbMdnEOaSAYADFuNeRI17JSNSsTRHil6wOFhXa5wqeaK/Svsihd174/5CgCB00UK80JBEyob+Up2kr+B/FCEkSKjNmaemkGtMGG/qkgNsNTDMdAA7QBRACeNc2/4b2b7E+XcW3b08bgTY36AXhm8wOQ7G0AAO4XjYBR1febgLc07Rp+Q9jk8FURHCzuW0tlkGNuSdnr6t1ZoUNGefZsMW8Brgm+tGIL0vlLeL1Ac1tjZUN3f/yG/qA88ww5XpjgTNQ/ZJAQynxj3cavL69fKzqor39pH1sb1mRdvTgwMnjYfcvW99rodwuQTeA1IApuHMoNwJv92qT30u3tTbq97vukC8K5e2zRt6xtILh5B9mra/wfrD9e9QcRLQUkT/et9E93q5m8t2bX1lyZzd67hnNZWe7k7AWB7fmV9clDHNmCYwj19ZAbVjRl2YiaRfXGK5NmivnfTedeXe0M1e19+MXWf3X2BslizmAGkKIarmr5yZbAY2N9PSSRM++2HX4LQ0c1edtCbCLP8Sy4ajFuBO5XBGtreE339/j++oyft4b4jdPT8P8j/qLsKuH7/x7Pm/t1DwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=8f3cc1f9c309a210e36b1412b4013131^sys_idNOT INd4fe8df1c349a210e36b1412b401314e"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">9cfe8df1c349a210e36b1412b401314d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="ITAM Approval Email Notification">8f3cc1f9c309a210e36b1412b4013131</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 06:07:02</sys_created_on>
+        <sys_id>d4fe8df1c349a210e36b1412b401314e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 06:10:59</sys_updated_on>
+        <ui_id>8512792d-1f54-414a-a4de-94ebf5326a18</ui_id>
+        <values>H4sIAAAAAAAA/51Sy27jMAz8F50Tw3YeqHMrsCjQw7ZAW/SyKAxKohNhZUmV5KSu4X9fKnbSosc92RySwxmRA7NddF0ML/Y2BLU3bPfnbcGUSRj9D8xAi2zHVMQ2sAU7gu5SPAyb4kZKLsol56VYrjfFZllxjstCrqtqk+fQlEX2hMJ6GcaRWqUKTkP/+v8M4qC09DiLdOBJW0TPdsOPVOwd1ho4aho0M1C/khQWlWyqIq/Eqtyuyjwvb9YF3654UcoVoNxS3aXzfjb94w0SO4X+ykufpKLMFww/IhqJNKgBHXDBWjASovU920XfEeAR5KPR/bXioEwkOpZqP4L6JO4iz1Nhg+RI4JS8hvX8kBMsDlYJfHRRWTMhEbiee4TVXWseJvlpBdhAp+NlBYR0gfjQJc1JxSypeT7Y09Nl4J0yZ39zUlsB+hpBjF7xLmJIa0CNLRHVLTinzL523h7VuZm0tNleU5A12p5oaDq3DEQSntETQXZH+K8z/ApeJRe/iYaax7P7+r1Lcycfs+J6Mk0FQXjl4i3RHXEWN76le52YwnQYEoUKNPAlYfeXK0+JnpasxHfoZP3fJPULG/8BD7L5QS8DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_hub_flow_variable action="DELETE" query="model=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=8f3cc1f9c309a210e36b1412b4013131"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</application>
+        <file_path/>
+        <instance_id>45ff787ddb71b958b1eb9027c5961963</instance_id>
+        <instance_name>dev182505</instance_name>
+        <name>sys_hub_flow_8f3cc1f9c309a210e36b1412b4013131</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes><authored_on_release_version>26000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>ITAM Approval Email Notification</description><display_name_after_preview/><flow_priority>MEDIUM</flow_priority><generation_source/><internal_name>itam_approval_email_notification</internal_name><label_cache>[{"name":"518ddbc2-bb2c-4515-9bbe-1d499500af21.Records","label":"1 - Look Up Records➛Computer Application Form Records","reference":"x_1642211_it_ass_0_computer_application_form","reference_display":"Computer Application Form","type":"records","base_type":"records","usedInstances":{"8512792d-1f54-414a-a4de-94ebf5326a18":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>ITAM Approval Email Notification</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 05:55:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8f3cc1f9c309a210e36b1412b4013131</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ITAM Approval Email Notification</sys_name><sys_overrides/><sys_package display_value="IT Asset Management" source="x_1642211_it_ass_0">bf9ffe11c30d2210e36b1412b40131c3</sys_package><sys_policy/><sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope><sys_update_name>sys_hub_flow_8f3cc1f9c309a210e36b1412b4013131</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 06:10:59</sys_updated_on><type>flow</type><version>2</version></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=8f3cc1f9c309a210e36b1412b4013131"/><sys_variable_value action="delete_multiple" query="document_key=8f3cc1f9c309a210e36b1412b4013131"/><sys_hub_flow_stage action="delete_multiple" query="flow=8f3cc1f9c309a210e36b1412b4013131"/><sys_flow_cat_variable_model action="delete_multiple" query="id=8f3cc1f9c309a210e36b1412b4013131^sys_idNOT IN4f3cc1f9c309a210e36b1412b4013132"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>8f3cc1f9c309a210e36b1412b4013131</id><name>ITAM Approval Email Notification</name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 05:55:13</sys_created_on><sys_id>4f3cc1f9c309a210e36b1412b4013132</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 05:55:13</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4f3cc1f9c309a210e36b1412b4013132"/><sys_hub_flow_input action="delete_multiple" query="model=8f3cc1f9c309a210e36b1412b4013131"/><sys_hub_flow_output action="delete_multiple" query="model=8f3cc1f9c309a210e36b1412b4013131"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=8f3cc1f9c309a210e36b1412b4013131"/><sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8f3cc1f9c309a210e36b1412b4013131^sys_idNOT INccfe8df1c349a210e36b1412b401314a"/><sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="ITAM Approval Email Notification">8f3cc1f9c309a210e36b1412b4013131</flow><name>Daily</name><remote_sys_id/><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 06:07:02</sys_created_on><sys_id>ccfe8df1c349a210e36b1412b401314a</sys_id><sys_mod_count>1</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 06:10:59</sys_updated_on><trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition><trigger_inputs>H4sIAAAAAAAA/21STUvEMBD9K5LzWtJdP3sTZMGDCipeRMo0me4GpklM09Uq/ncnbVxULLnMm5k37z369CEIGiRRiQfToVgIYyMGC/QwemR0Q0ZjHedeB1ZDdGEUVQwDLoQLGoOoSikXYgc04P3YX2le42ELXSLIq1OXy/L8VB7Kkt+BPK2k5MddD4GnY+L6EGprSAe0onp6Zj2JbgX6CLWSarXkT8rl2VHZnKyacqlXgHjMFH9s/L4e/zHzUzu+RbQa+VQL1OM/TgOCvrU07ie2HNRstIO33rxjpgrYIotXODf3Za1N7wnGGVZbZxTe+micnZEIDeUd5Wjo7M3sgGuNLQwUH3OEjAw986FPmpOKLKm937rXu++Da2Mng7lJTgHtK4gxmGaI2KfEkbBjoroD743d1D64nZmWWUtXTLEVLblXPtqbjS1AJeEFRwTFmvHLCX6EYJKLa6bh5c/Jff0ypLuzj6y4nk3zQA5lbZDyb9OrYHy84AM7zHI/n78A19hGYKcCAAA=</trigger_inputs><trigger_outputs/><trigger_type>daily</trigger_type></sys_hub_trigger_instance_v2><sys_hub_action_instance_v2 action="delete_multiple" query="flow=8f3cc1f9c309a210e36b1412b4013131^sys_idNOT IN46dfcd35c349a210e36b1412b4013133"/><sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"><action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type><action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent><attributes/><comment>find awaiting approval records</comment><compiled_snapshot/><display_text/><flow display_value="ITAM Approval Email Notification">8f3cc1f9c309a210e36b1412b4013131</flow><generation_source/><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance_v2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 06:10:59</sys_created_on><sys_id>46dfcd35c349a210e36b1412b4013133</sys_id><sys_mod_count>1</sys_mod_count><sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 06:10:59</sys_updated_on><ui_id>518ddbc2-bb2c-4515-9bbe-1d499500af21</ui_id><values>H4sIAAAAAAAA/9VX207jMBD9lSjPUZW0pbC8IVClfQAkQLywyHIcp7XWsbO20wuIf99x7KSlLVBKxeUx47mcOT4zde8eQ5aFx+FR3o9jnBwcHcZxrxfHg0GP4CRNewOSxmk/DaNQ4IKCp8Epp/A5wbyy3zOUDPrdbpIgZhDWGsWIyKKsDFUIlyVnBBsmBcqlKiAsY7rkeH7ro0+9a3CycA2GzpWMGc8UFeHx3X0UllgBAHANjx9Xjsy8pIjjlHLIeGPxBRcWbLR1b8+C13u1BZpPJFxqqTKLJY5COjNUZBRK5ZhrGoUFFhk2Us1bi6I4uxR8YRgzYSBjaJ1nmj1A+qPY+uUU2iLUnbWfyNPmzGQsGaGXpSXLWRxQdyh5VYgL14AlnOa44qYhHCyVhny0tJgtCI8ovx7L6VVTcMhE3Z4/5JJg3n5hYxRL4dq0vQvKaQGJUAG3zcQIlUpOWB0MWIrOiMNHJ+dyCkU1G4kOJhZ4ByjCnSHYz2rzLVbMdnEOaSAYADFuNeRI17JSNSsTRHil6wOFhXa5wqeaK/Svsihd174/5CgCB00UK80JBEyob+Up2kr+B/FCEkSKjNmaemkGtMGG/qkgNsNTDMdAA7QBRACeNc2/4b2b7E+XcW3b08bgTY36AXhm8wOQ7G0AAO4XjYBR1febgLc07Rp+Q9jk8FURHCzuW0tlkGNuSdnr6t1ZoUNGefZsMW8Brgm+tGIL0vlLeL1Ac1tjZUN3f/yG/qA88ww5XpjgTNQ/ZJAQynxj3cavL69fKzqor39pH1sb1mRdvTgwMnjYfcvW99rodwuQTeA1IApuHMoNwJv92qT30u3tTbq97vukC8K5e2zRt6xtILh5B9mra/wfrD9e9QcRLQUkT/et9E93q5m8t2bX1lyZzd67hnNZWe7k7AWB7fmV9clDHNmCYwj19ZAbVjRl2YiaRfXGK5NmivnfTedeXe0M1e19+MXWf3X2BslizmAGkKIarmr5yZbAY2N9PSSRM++2HX4LQ0c1edtCbCLP8Sy4ajFuBO5XBGtreE339/j++oyft4b4jdPT8P8j/qLsKuH7/x7Pm/t1DwAA</values></sys_hub_action_instance_v2><sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8f3cc1f9c309a210e36b1412b4013131"/><sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8f3cc1f9c309a210e36b1412b4013131^sys_idNOT INd4fe8df1c349a210e36b1412b401314e"/><sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"><attributes/><block display_value="">9cfe8df1c349a210e36b1412b401314d</block><comment/><connected_to/><decision_table/><display_text/><flow display_value="ITAM Approval Email Notification">8f3cc1f9c309a210e36b1412b4013131</flow><flow_variables_assigned/><generation_source/><logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition><order>2</order><outputs_assigned/><parent_ui_id/><sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 06:07:02</sys_created_on><sys_id>d4fe8df1c349a210e36b1412b401314e</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 06:10:59</sys_updated_on><ui_id>8512792d-1f54-414a-a4de-94ebf5326a18</ui_id><values>H4sIAAAAAAAA/51Sy27jMAz8F50Tw3YeqHMrsCjQw7ZAW/SyKAxKohNhZUmV5KSu4X9fKnbSosc92RySwxmRA7NddF0ML/Y2BLU3bPfnbcGUSRj9D8xAi2zHVMQ2sAU7gu5SPAyb4kZKLsol56VYrjfFZllxjstCrqtqk+fQlEX2hMJ6GcaRWqUKTkP/+v8M4qC09DiLdOBJW0TPdsOPVOwd1ho4aho0M1C/khQWlWyqIq/Eqtyuyjwvb9YF3654UcoVoNxS3aXzfjb94w0SO4X+ykufpKLMFww/IhqJNKgBHXDBWjASovU920XfEeAR5KPR/bXioEwkOpZqP4L6JO4iz1Nhg+RI4JS8hvX8kBMsDlYJfHRRWTMhEbiee4TVXWseJvlpBdhAp+NlBYR0gfjQJc1JxSypeT7Y09Nl4J0yZ39zUlsB+hpBjF7xLmJIa0CNLRHVLTinzL523h7VuZm0tNleU5A12p5oaDq3DEQSntETQXZH+K8z/ApeJRe/iYaax7P7+r1Lcycfs+J6Mk0FQXjl4i3RHXEWN76le52YwnQYEoUKNPAlYfeXK0+JnpasxHfoZP3fJPULG/8BD7L5QS8DAAA=</values><workflow_reference/></sys_hub_flow_logic_instance_v2><sys_hub_pill_compound action="delete_multiple" query="attached_to=8f3cc1f9c309a210e36b1412b4013131"/><sys_hub_flow_variable action="delete_multiple" query="model=8f3cc1f9c309a210e36b1412b4013131"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8f3cc1f9c309a210e36b1412b4013131"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8f3cc1f9c309a210e36b1412b4013131"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_8f3cc1f9c309a210e36b1412b4013131"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8f3cc1f9c309a210e36b1412b4013131"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=8f3cc1f9c309a210e36b1412b4013131"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=8f3cc1f9c309a210e36b1412b4013131"/></record_update>]]></payload>
+        <payload_hash>-1566575878</payload_hash>
+        <record_name>ITAM Approval Email Notification</record_name>
+        <reverted_from/>
+        <source>dc0e10edc3816210e36b1412b4013153</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 06:11:00</sys_created_on>
+        <sys_id>06dfcd35c349a210e36b1412b401314b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1965c1f0a910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 06:11:00</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>8adfcd35ea49a210766080bb1b5cde4a</update_guid>
+        <update_guid_history>8adfcd35ea49a210766080bb1b5cde4a:-1566575878,9cfe8df19649a210cb233e9f52316d70:-1601795713,c73cc1f94709a21065831c10e7ef1d36:-1738892770</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 06:30:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>a751376a608d4559b459be9fde04b1d9</sys_id>
+        <sys_metadata>8f3cc1f9c309a210e36b1412b4013131</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITAM Approval Email Notification</sys_name>
+        <sys_package display_value="IT Asset Management" source="x_1642211_it_ass_0">bf9ffe11c30d2210e36b1412b40131c3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope>
+        <sys_scope_delete display_value="">00b1574d353a49a88306dfcd44871424</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_8f3cc1f9c309a210e36b1412b4013131</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_8f3cc1f9c309a210e36b1412b4013131">06dfcd35c349a210e36b1412b401314b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 06:30:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
