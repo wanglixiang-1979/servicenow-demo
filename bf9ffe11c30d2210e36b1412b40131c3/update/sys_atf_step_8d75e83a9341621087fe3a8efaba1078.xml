@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Set the following values on the form:
+Employee Name = Abel Tuter
+and Purpose of Request = project need
+and Email = abel.tuter@example.com
+and State = Requested
+and When needed = 2025-04-30</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 05:40:44</sys_created_on>
+        <sys_id>8d75e83a9341621087fe3a8efaba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="IT Asset Management" source="x_1642211_it_ass_0">bf9ffe11c30d2210e36b1412b40131c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Asset Management">bf9ffe11c30d2210e36b1412b40131c3</sys_scope>
+        <sys_update_name>sys_atf_step_8d75e83a9341621087fe3a8efaba1078</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 05:40:44</sys_updated_on>
+        <table>x_1642211_it_ass_0_computer_application_form</table>
+        <test display_value="ITAM Approval Test">583368769341621087fe3a8efaba1093</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=8d75e83a9341621087fe3a8efaba1078"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8d75e83a9341621087fe3a8efaba1078</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 05:40:44</sys_created_on>
+        <sys_id>00b5a07a9341621087fe3a8efaba101a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 05:40:44</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8d75e83a9341621087fe3a8efaba1078</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 05:40:44</sys_created_on>
+        <sys_id>84b5a07a9341621087fe3a8efaba101a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 05:40:44</sys_updated_on>
+        <value>employee_name=62826bf03710200044e0bfc8bcbe5df1^purpose_of_request=project need^email=abel.tuter@example.com^state=requested^when_needed=2025-04-30^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8d75e83a9341621087fe3a8efaba1078</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 05:40:44</sys_created_on>
+        <sys_id>c0b5a07a9341621087fe3a8efaba101a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 05:40:44</sys_updated_on>
+        <value>x_1642211_it_ass_0_computer_application_form</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=8d75e83a9341621087fe3a8efaba1078"/>
+</record_update>
